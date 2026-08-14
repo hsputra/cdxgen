@@ -1994,5 +1994,13 @@
   "pbeWithSHA1AndRC2-CBC": {
     "oid": "1.2.840.113549.1.5.11",
     "description": "Password Based Encryption Algorithm. Uses RC2 in Cipher Block Chaining Mode (RC2-CBC)."
+  },
+  "ecdsa": {
+    "oid": "1.2.840.10045.2.1",
+    "description": "ANSI X9.62 id-ecPublicKey (EC key type; hash-specific ECDSA variants like ecdsaWithSHA256 are separate entries)"
+  },
+  "hkdf": {
+    "oid": "1.2.840.113549.1.9.16.3.28",
+    "description": "RFC 8619 id-alg-hkdf-with-sha256, used as a representative OID for bare HKDF matches; RFC 5869 HKDF itself has no hash-agnostic OID, only per-hash RFC 8619 variants"
   }
 }
